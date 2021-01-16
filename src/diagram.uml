@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="927.0">pizza.Cheesy</node>
+    <node x="363.0" y="1176.0">factory.PizzaFactory</node>
+    <node x="932.0" y="0.0">memento.Memento</node>
+    <node x="695.0" y="0.0">observer.Observer</node>
+    <node x="393.99999999999994" y="927.0">pizza.Carbonara</node>
+    <node x="251.99999999999994" y="145.0">pizza.Pizza</node>
+    <node x="135.99999999999994" y="818.0">pizza.Pizza.Builder</node>
+    <node x="279.49999999999994" y="0.0">decorator.PriceDecorator</node>
+    <node x="206.0" y="1176.0">pizza.PizzaType</node>
+    <node x="0.0" y="1176.0">memento.Originator</node>
+    <node x="695.0" y="125.0">observer.ConcreteObserver</node>
+    <node x="530.0" y="927.0">pizza.Margherita</node>
+    <node x="607.0" y="1176.0">Main</node>
+    <node x="1180.0" y="0.0">factory.PizzaHouse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pizza.Cheesy" target="pizza.Pizza">
+      <point x="0.0" y="-47.5" />
+      <point x="58.0" y="788.0" />
+      <point x="277.37499999999994" y="788.0" />
+      <point x="-76.125" y="311.5" />
+    </edge>
+    <edge source="pizza.Pizza" target="decorator.PriceDecorator">
+      <point x="0.0" y="-311.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="pizza.Carbonara" target="pizza.Pizza">
+      <point x="0.0" y="-47.5" />
+      <point x="451.99999999999994" y="798.0" />
+      <point x="378.87499999999994" y="798.0" />
+      <point x="25.375" y="311.5" />
+    </edge>
+    <edge source="pizza.Margherita" target="pizza.Pizza">
+      <point x="0.0" y="-47.5" />
+      <point x="590.0" y="788.0" />
+      <point x="429.62499999999994" y="788.0" />
+      <point x="76.125" y="311.5" />
+    </edge>
+    <edge source="pizza.Pizza.Builder" target="pizza.Pizza">
+      <point x="0.0" y="-156.5" />
+      <point x="254.99999999999994" y="798.0" />
+      <point x="328.12499999999994" y="798.0" />
+      <point x="-25.375" y="311.5" />
+    </edge>
+    <edge source="observer.ConcreteObserver" target="observer.Observer">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="736.3333333333342" y="634.4999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
